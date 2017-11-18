@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <title>Shop Inventory</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="webjars/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          th:href="@{/webjars/bootstrap/4.0.0-beta.2/css/bootstrap.min.css}" media="all"/>
+    <link rel="stylesheet" href="../static/css/main.css" th:href="@{/css/main.css}"/>
+
+
+</head>
+<body>
+    <header class="header">
+        <div class="navbar navbar-light">
+            <div class="container-fluid">
+                <h1>Inventory Management System</h1>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <center><b id="login-name">Login Here</b></center>
+        <div class="row">
+            <div class="col-md-6 offset-md-3" id="login">
+                <form>
+                    <div class="form-group">
+                        <label class="user">UserName: </label>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="icon"><i class="glyphicons glyphicons-user"></i></span>
+                            <input type="text" class="form-control" id="text" name="t1" placeholder="Enter username"/>
+                        </div>
+                        <label class="user">Password: </label>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="icon1"><i class="glyphicons glyphicons-lock"></i></span>
+                            <input type="password" class="form-control" id="text1" name="t1" placeholder="Enter password"/>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-success" value="Login" style="border-radius: 0px;"/>
+                        <input type="submit" class="btn btn-danger" value="Reset" style="border-radius: 0px;"/>
+                    </div>
+                    <br/><br/><br/>
+                    <a href="#" style="color:white; font-size: 15px;float: right;">Forgot Password</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="webjars/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
